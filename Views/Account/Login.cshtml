@@ -1,0 +1,15 @@
+@model intro.ViewModels.LoginViewModel
+
+
+<form class="mt-5 col"  method="post" asp-action="Login" asp-controller="Account">
+    <input hidden="true" asp-for="@Model.ReturnUrl">
+    <label asp-for="Email"></label>
+    <input asp-for="Email">
+
+    <label asp-for="Password"></label>
+    <input asp-for="Password">
+
+    <button type="submit">Login</button>
+</form>
+
+<a href="/account/register?returnUrl=@Model.ReturnUrl">Register</a>
