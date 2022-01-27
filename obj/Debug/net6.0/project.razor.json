@@ -16333,11 +16333,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Hp\\OneDrive\\Документы\\bootcamp-1\\intro\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Hp\\OneDrive\\Документы\\bootcamp-1\\intro\\Views\\Account\\Login.cshtml",
       "TargetPath": "Views\\Account\\Login.cshtml",
       "FileKind": "mvc"
